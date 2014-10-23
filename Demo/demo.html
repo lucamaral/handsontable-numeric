@@ -1,2 +1,32 @@
-<input type="text" id="selected-cell-input">
-<div id="my-grid" class="handsontable"></div>
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title> Numeric </title>
+	<link rel="stylesheet" href="demo.css">
+    <link rel="stylesheet" href="lib/jquery.handsontable.full.min.css">
+</head>
+<body>
+    <a href="https://github.com/lucamaral/handsontable-numeric"> Source - Github </a>
+
+	<hr/>
+
+    <input type="text" id="selected-cell-input">
+    <div id="my-grid" class="handsontable"></div>
+
+    <br />
+    <textarea placeholder="Paste table here!" rows="15"></textarea>
+    
+    <script src="lib/jquery.min.js"></script>
+    <script src="lib/jquery.handsontable.full.min.js"></script>
+    <script src="app/afterSelectionHandler.js"></script>
+    <script src="app/beforeCellCopyHandler.js"></script>
+    <script src="app/beforeChangeHandler.js"></script>
+    <script src="app/cellsHandler.js"></script>
+    <script src="app/numericFormattedEditor.js"></script>
+    <script src="app/numericFormattedValidator.js"></script>
+    <script src="demo.js"></script>
+</body>
+
+</html>
