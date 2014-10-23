@@ -1,0 +1,15 @@
+---
+ name: Handle numeric values on edit, copy
+ authors:
+   - Lucas Amaral
+ resources:
+   - /lib/jquery.min.js
+   - /lib/jquery.handsontable.full.min.css
+   - /lib/jquery.handsontable.full.min.js
+   - /app/afterSelectionHandler.js
+   - /app/beforeCellCopyHandler.js
+   - /app/beforeChangeHandler.js
+   - /app/cellsHandler.js
+   - /app/numericFormattedEditor.js
+   - /numericFormattedValidator.js
+ ...
